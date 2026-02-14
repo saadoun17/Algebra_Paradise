@@ -178,14 +178,12 @@ a{
     height: 60px;
     width: auto;
     background-color: rgb(2, 59, 67);
-    margin: top 0; ;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0px;
+    margin: top 0;
+    padding: 20px 0;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
 }
+
 #footer{
     display: flex;
     padding: 30px;
@@ -200,9 +198,25 @@ a{
     text-align: center;
     gap: 500px;
     padding-left: 40px;
-    
+    width: 100%;
 }
-footer{
-    bottom: 0;
-    padding: 20px 0;
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html{
+    height: 100%;
+    width: 100%;
 }
